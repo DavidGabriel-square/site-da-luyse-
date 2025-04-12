@@ -35,6 +35,7 @@ body {
 .botao:hover {
   background-color: #ffe;
 }
+
 /* Animação dos corações */
 @keyframes coracao {
   0% {
