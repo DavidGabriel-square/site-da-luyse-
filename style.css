@@ -35,3 +35,58 @@ body {
 .botao:hover {
   background-color: #ffe;
 }
+/* Animação dos corações */
+@keyframes coracao {
+  0% {
+    opacity: 0;
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-20px) scale(1.2);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.coracao {
+  position: absolute;
+  font-size: 3rem;
+  color: #f5f5dc;
+  animation: coracao 3s infinite;
+  pointer-events: none;
+  animation-timing-function: ease-in-out;
+}
+
+/* Posições dos corações */
+.coracao:nth-child(1) {
+  animation-delay: 0s;
+  top: 10%;
+  left: 30%;
+}
+
+.coracao:nth-child(2) {
+  animation-delay: 0.5s;
+  top: 20%;
+  left: 70%;
+}
+
+.coracao:nth-child(3) {
+  animation-delay: 1s;
+  top: 40%;
+  left: 50%;
+}
+
+.coracao:nth-child(4) {
+  animation-delay: 1.5s;
+  top: 60%;
+  left: 20%;
+}
+
+.coracao:nth-child(5) {
+  animation-delay: 2s;
+  top: 80%;
+  left: 60%;
+}
