@@ -1,0 +1,37 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #001f3f;
+  color: #f5f5dc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 30px;
+  border: 2px solid #f5f5dc;
+  border-radius: 10px;
+  background-color: #002b5c;
+  max-width: 500px;
+}
+
+.botao {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: #001f3f;
+  background-color: #f5f5dc;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.botao:hover {
+  background-color: #ffe;
+}
